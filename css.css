@@ -1,0 +1,53 @@
+body{
+  font-family: 'Merriweather', serif;
+  margin-left: 55px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+.container {
+  border:5px solid black;
+  border-radius: 9px;
+  box-shadow: 8px 8px 12px #aaa;
+  width: 70%;
+  height: 450px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.flex-start {
+  align-self: flex-start;
+}
+.flex-end {
+  align-self: flex-end;
+}
+.center {
+  align-self: center;
+}
+.baseline {
+  align-self: baseline;
+}
+.stretch {
+  align-self: stretch;
+}
+
+.enfant {
+  border-radius: 9px;
+  background: orange;
+  padding: 15px;
+  width: 100px;
+  margin: 15px;
+  line-height: 80px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+hr{
+  color:grey;
+}
